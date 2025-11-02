@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
+
+    <TextView
+        android:id="@+id/history_month_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August 2024"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/history_paid_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history_month_year"
+        android:text="Paid on 22 Aug" />
+
+    <TextView
+        android:id="@+id/history_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="₹0"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/history_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history_amount"
+        android:layout_alignParentEnd="true"
+        android:text="Paid"
+        android:textColor="#4CAF50" />
+
+</RelativeLayout>

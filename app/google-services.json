@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "715027072835",
+    "project_id": "jalbankcapstone",
+    "storage_bucket": "jalbankcapstone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715027072835:android:14bf5f9dc9b56718f091f6",
+        "android_client_info": {
+          "package_name": "com.capstone.jalbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv7ooPF8Rj2lQUKC03X-nrfMYciCrbaVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
